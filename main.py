@@ -86,8 +86,8 @@ if __name__ == '__main__':
 
     if args.action == 'generate':
         keys = generate_keys()
-        print("public key:", keys[0][0], ",", keys[0][1])
-        print("private key:", keys[1][0], ",", keys[1][1])
+        print("public key:", str(keys[0][0]) + "," + str(keys[0][1]))
+        print("private key:", str(keys[1][0]) + "," + str(keys[1][1]))
     elif args.action == 'encrypt':
         if args.key is None:
             print("arguments should contain public key")
