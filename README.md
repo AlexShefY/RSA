@@ -20,17 +20,17 @@ optional arguments:
 ```
 ## Examples 
 
-'''
+```
 python3 main.py -a generate 
 public key: 420054129998730599,439527753393865333
 private key: 65385685668271959,439527753393865333
-'''
+```
 
 
-'''
+```
 python3 main.py -a encrypt -k 420054129998730599,439527753393865333 -i example_input -o example_output
-'''
+```
 
-'''
+```
 python3 main.py -a decrypt -k 65385685668271959,439527753393865333 -i example_output -o example_output_decrypt
-'''
+```
