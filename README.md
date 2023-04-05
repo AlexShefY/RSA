@@ -1,6 +1,7 @@
 # RSA
 
-'''usage: RSA algorithm [-h] [-a {generate,encrypt,decrypt}] [-k KEY] [-i INPUT]
+```
+usage: RSA algorithm [-h] [-a {generate,encrypt,decrypt}] [-k KEY] [-i INPUT]
                      [-o OUTPUT]
 
 Generates public/private keys + encodes/decodes text
@@ -13,4 +14,5 @@ optional arguments:
   -i INPUT, --input INPUT
                         input file
   -o OUTPUT, --output OUTPUT
-                        output file'''
+                        output file
+```
